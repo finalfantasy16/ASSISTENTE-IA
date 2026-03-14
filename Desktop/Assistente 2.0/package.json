@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fuzzball": "^2.2.2",
+    "puppeteer": "^24.7.0"
+  },
+  "name": "assistente-2.0",
+  "version": "1.0.0",
+  "main": "assistant.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

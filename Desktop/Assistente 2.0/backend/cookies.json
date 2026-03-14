@@ -1,0 +1,78 @@
+[
+    {
+        "domain": "hix.ai",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "__Host-next-auth.csrf-token",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "208b3a143b6665701bb1a8ae430a787811249004f1a716947dcb9910c33954bd%7Cf661a4d2b26d30db9e27eeed598918568f37d352996225b47e25ec4dc4bfd4c5"
+    },
+    {
+        "domain": ".hix.ai",
+        "expirationDate": 1807614501.248625,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "FPID",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "FPID2.2.sMQMf4hpfNnrdZ4YBn1U84q9wgB9AJcAnOoEp01qc%2B4%3D.1773052335"
+    },
+    {
+        "domain": ".hix.ai",
+        "expirationDate": 1780830577.455408,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__Secure-next-auth.session-token",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..7W7TTbQU3uftTxLk.cNLuYKonjd9bXtUyPvSTKGirne1sXE4EHupTglEhdNTNfUtge6CRBSlr5UWOaybxrYFjhDvqFOTW2HlN-K_MHOnzu5QNa9xGR-ojDMUb5LTkq9haCEiyE4I9C4-JQ5PPjoKN-9b4WC-XNcgTlz5nqoNEoiMRufMSmlGcWvRbA4VsbXScHqki1LGwupfXCjE5Q69w4gscjqDCbhBDbXdOpstqv9zxCQCVJFxn-J5mK3STxjLdzUp48V1rV4CQTN4fVpNILVVaEwwTxqqwijoquXX8B-EmsM0sh0JdjR30LogeH23ilNhFqsJXRxDc7FjqBuSqR05fAYyi3DFmETK8EJ0jeskx-p3oGo1xnOBpScxfXajSeaTuSJJXNK18xqaOKhWMO6R6rqvlAXiK4vozVRao_88ZbVLyGRVc2jln_NJWbQVVHcFi2EeedB4deFHbxSJfNLZSBf_W2kSS0agSI_KCC8FDnFoMnv9nIL8K4vIdd8h6HUn6SIPw1WmPlhHgQQOCK--0ljB56eSF1ZpMR8BHBV14iIjcw6nQlswM92W1VY_SrBthLW9O-Is4OpsVKXTKvTXj2QHgqi3ebMY4_6-7KEp00uDycStg6NFOH1BTdqAw0qmo5DgfT7dHTuNdDJYfaitx3pC0-dnf5gQyVHf-0TSVKyQ.Qe2VgBhbosUaueG8dWXfjQ"
+    },
+    {
+        "domain": ".hix.ai",
+        "expirationDate": 1773124335.986661,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "FPLC",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "WvhZLgx%2BaDVWbQkZQoywMyj9qA0oPxK0V%2FPuzgBlXcXxMOXBGuqsI0dyys65Q%2Bbzry%2FLzI4gW4HS7QG5f9%2B7Z399cUTTYLRXJX20SMT4g1nSd%2BS%2BqTEe6iGavl1BfQ%3D%3D"
+    },
+    {
+        "domain": "hix.ai",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "__Secure-next-auth.callback-url",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "https%3A%2F%2Fhix.ai%2F"
+    },
+    {
+        "domain": ".hix.ai",
+        "expirationDate": 1806748343.622185,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_twpid",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "tw.1773052339402.109464271249629468"
+    }
+]
