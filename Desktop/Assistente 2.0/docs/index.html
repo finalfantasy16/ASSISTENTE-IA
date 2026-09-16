@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Virtual - Nia</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Carrega a biblioteca fuzzball antes do assistant.js -->
+    <script type="text/javascript" src="lib/fuzzball.umd.min.js"></script>
+</head>
+<body>
+    <div id="background">
+        <div id="nia-face">
+            <div class="eyes"></div>
+            <div id="breathing-chest"></div>
+            <div id="hair-breeze"></div>
+        </div>
+    </div>
+    <div id="container">
+        <h1>Nia Assistente Virtual</h1>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Pergunte algo..." onkeypress="checkEnter(event)">
+            <button onclick="processInput()">Enviar</button>
+        </div>
+        <div id="status" class="status-message">
+            <span id="statusCircle" class="status-circle"></span>
+            <span id="statusText"></span>
+        </div>
+        <div id="loading" style="display: none;">Buscando resposta no HIX AI...</div>
+        <div id="responses"></div>
+        <button onclick="toggleHistorico()">Histórico</button>
+        <div id="historico"></div>
+        <div id="modoAssistente" onclick="toggleModoAssistente()">Modo Assistente GPT</div>
+        <div id="fileDropArea" ondragover="event.preventDefault();" ondrop="handleDrop(event)">
+            <p>Arraste e solte seus arquivos aqui ou clique para selecionar arquivos</p>
+            <input type="file" id="fileInput" accept=".txt,.doc,.docx,image/*" onchange="handleFiles(this.files)" multiple>
+        </div>
+        <textarea id="interpretacao" placeholder="Dados interpretados aparecerão aqui..."></textarea>
+        <button id="convertButton" onclick="showConversionOptions()">Conversão de Arquivos</button>
+        <div id="conversionOptions" style="display: none;">
+            <button onclick="convertToPDF()">Converter para PDF</button>
+        </div>
+    </div>
+    <!-- Carrega o script principal após fuzzball -->
+    <script type="text/javascript" src="assistant.js"></script>
+</body>
+</html>
